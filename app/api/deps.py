@@ -1,7 +1,8 @@
 from typing import Iterator
 
-from database.session import SessionLocal
 from sqlalchemy.orm import Session
+
+from app.database.session import SessionLocal
 
 
 def get_db_session() -> Iterator[Session]:
