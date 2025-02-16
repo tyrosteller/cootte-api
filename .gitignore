@@ -1,0 +1,23 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Environment variables file
+.env.*
+
+# Miscellaneous
+.vscode/
+
+
+# Logs and output files
+*.log
+*.out
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
